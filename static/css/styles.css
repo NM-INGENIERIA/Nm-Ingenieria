@@ -7,6 +7,12 @@
 
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* === MENU NAV === */
 
 .main-menu {
@@ -161,4 +167,111 @@
     max-width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+/* === SECION SERVICIOS === */
+
+.services-section {
+    background-color: #0a0f1d;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.services-section h3 {
+    color: #83C3E2;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.services-section h2 {
+    color: #fefefe;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-desc {
+    color: #9ca3af;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 30px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: #fefefe;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #9ca3af;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wide-feature-card {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    gap: 20px;
+}
+
+.wide-service-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    text-align: left;
+}
+
+.wide-service-card:not(:last-child) {
+    border-right: 1px solid #1f2937;
+    padding-right: 20px;
+}
+
+.wide-icon {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.wide-service-card h4 {
+    color: #fefefe;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.wide-service-card p {
+    color: #9ca3af;
+    font-size: 13px;
+    line-height: 1.4;
 }
