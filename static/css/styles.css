@@ -8,7 +8,7 @@
 }
 
 .main-menu {
-    background-color: #073956;
+    background-color: #050E16;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .main-logo img {
-    height: 200px;
+    height: 80px;
     width: auto;
 }
 
