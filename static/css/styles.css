@@ -19,3 +19,11 @@
     height: 50px;
     width: auto;
 }
+
+.main-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 40px;
+}
