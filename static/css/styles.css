@@ -69,3 +69,8 @@
     font-size: 13px;
     transition: all 0.3s ease;
 }
+
+.btn-admin:hover {
+    background-color: #83C3E2;
+    color: #073956;
+}
