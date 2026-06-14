@@ -47,3 +47,7 @@
     transition: color 0.3s ease;
     padding-bottom: 6px;
 }
+
+.main-center a:hover {
+    color: #83C3E2;
+}
