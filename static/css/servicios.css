@@ -1,0 +1,112 @@
+/*CSS SECCION SERVICIOS*/
+
+/* <<<======================>>> */
+/* > === general ===*/
+.services-section {
+    background-color: var(--SERVICIOS-BACKGROUND);
+    padding: 20px 40px;
+    text-align: center;
+}
+
+/*TEXTO*/
+.services-section h3 {
+    color: var(--COLOR-PRINCIPAL2);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.services-section h2 {
+    color: var(--COLOR-TEXTO-BLANCO);
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.services-section p {
+    color: var(--SERVICIOS-TEXTO1);
+    font-size: 14 px;
+    margin-bottom: 15px;
+}
+
+/* <<<======================>>> */
+/*>> GRID */
+/*cards*/
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: var(--SERVICIOS-CARD-BACKGROUND);
+    border: 1px solid var(--SERVICIOS-CARD-BORDER);
+    border-radius: 12px;
+    padding: 30px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: var(--COLOR-TEXTO-BLANCO);
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: var(--SERVICIOS-TEXTO1);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/*wide cards*/
+.wide-feature-card {
+    background-color: var(--SERVICIOS-WIDECARD-BACKGROUND);
+    border: 1px solid var(--SERVICIOS-WIDECARD-BORDER);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    gap: 20px;
+}
+
+.wide-service-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    text-align: left;
+}
+
+.wide-service-card:not(:last-child) {
+    border-right: 1px solid #1f2937;
+    padding-right: 20px;
+}
+
+.wide-icon {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.wide-service-card h4 {
+    color: var(--COLOR-TEXTO-BLANCO);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.wide-service-card p {
+    color: var(--SERVICIOS-TEXTO1);
+    font-size: 13px;
+    line-height: 1.4;
+}

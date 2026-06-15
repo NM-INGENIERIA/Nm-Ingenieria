@@ -1,0 +1,83 @@
+/*CSS BARRA DE NAVEGACION*/
+
+/* <<<======================>>> */
+/* > === GENERAL === */
+.main-menu {
+    background-color: var(--BACKGROUND-MENU);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+/* <<<======================>>> */
+/* >> logo*/
+.main-logo img {
+    height: 80px;
+    width: auto;
+}
+
+/* <<<======================>>> */
+/* >> menu central general*/
+.main-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+/* >>> botones menu central*/
+.main-center {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* >>> caracteres menu central*/
+.main-center a {
+    color: VAR(--COLOR-TEXTO-BLANCO);
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    padding-bottom: 6px;
+}
+
+/* >>> efectos menu central*/
+/*responsibidad al pasar por encima del boton*/
+.main-center a:hover {
+    color: var(--COLOR-PRINCIPAL2);
+}
+
+/*responsibidad al estar en x pagina*/
+.main-center a.active {
+    color: var(--COLOR-PRINCIPAL2);
+    border-bottom: 20px solid var(--COLOR-PRINCIPAL2);
+}
+
+/* <<<======================>>> */
+/* >> boton admin*/
+/* configuracion general */
+.btn-admin {
+    background-color: var(--COLOR-PRINCIPAL2);
+    color: var(--COLOR-TEXTO-BLANCO);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+/* efectos boton admin */
+.btn-admin:hover {
+    background-color: var(--COLOR-PRINCIPAL4);
+    color: var(--COLOR-PRINCIPAL2);
+}

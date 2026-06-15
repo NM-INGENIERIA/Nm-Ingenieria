@@ -1,0 +1,92 @@
+/*CSS SECCION HERO*/
+
+/* <<<======================>>> */
+/* > === general ===*/
+.hero {
+    background-image: url('../img/wallpaper-hero.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 40px;
+    min-height: calc(100vh - 80px);
+    box-sizing: border-box;
+}
+
+/* <<<======================>>> */
+/* >> Contenido DEL HERO */
+/*posicionamiento*/
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+/*TEXTO DEL CONTENIDO DEL HERO*/
+.hero-content h1 {
+    color: var(--COLOR-TEXTO-BLANCO);
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text-highlight {
+    color: var(--COLOR-PRINCIPAL2);
+}
+
+.hero-content p {
+    color: #9CA3AF;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 20px;
+}
+
+/* <<<======================>>> */
+/* >> BOTONES CALL TO ACTION*/
+/*BOTON PRIMARIO*/
+.hero-btn-primary {
+    background-color: #0F62AC;
+    color: #fefefe;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn-primary:hover {
+    background-color: var(--COLOR-PRINCIPAL4);
+    color: var(--COLOR-PRINCIPAL1);
+}
+
+/*BOTON SECUNDARIO*/
+.hero-btn-secondary {
+    background-color: transparent;
+    color: #fefefe;
+    border: 2px solid #2E2E33;
+    padding: 13px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.hero-btn-secondary:hover {
+    color: #fefefe;
+    border-color: #0F62AC;
+}
